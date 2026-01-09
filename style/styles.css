@@ -1,3 +1,74 @@
+*{
+margin: 0;
+padding: 0;
+}
 body{
+    max-width: 1600px;
+}
+.front-open-sans{
+    font-family: "Open Sans",sans-serif;
+    font-optical-sizing: auto
+    ;
+}
+header{
+    background-color: #FFFFF;
+padding: 16px 120px;
+}
+.conteinar{
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+  padding: 16px 120px;
+}
+.list a{
+    text-decoration: none;
+  
+}
+.btn{
+    padding: 12px 16px;
+    border-radius: 4px;
+    background-color: #30b868;
+    color:white;
+    font-weight: 600;
+    border: none;
+
+}
+/* banner */
+.banner-conteinar-parent{
+    text-align: center;
+    padding: 120px;
+    /* display: flex; */
+    column-gap: 34px;
+    background-image:url(../images/hero-bg.png);
+    color: white;
+    
+    gap: 134px;
+}
+.icon{
+    background-color: white;
+    color:#30b830 ;
+    border: none;
+    border-radius: 10px;
+}
+.icon i{
+    color: #30b830;
     
 }
+.play-btn{
+    
+}
+
+/* notes */
+/* brain */
+.brain{
+    display: flex;
+}
+.check i{
+    color: #30b868;
+}
+    
