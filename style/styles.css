@@ -1,7 +1,7 @@
-/* *{
+*{
 margin: 0 auto;
 padding: 0;
-} */
+}
 body{
     max-width: 1600px;
     margin-left: 50px;
@@ -67,8 +67,19 @@ padding: 16px 120px;
 
 /* notes */
 /* brain */
-.brain{
+.brain-section{
     display: flex;
+    justify-content: space-between;
+    padding: 120px;
+}
+.point{
+    padding-top: 80px;
+}
+.point h3{
+    color: #30b868;
+}
+#pera{
+    color: #627382;
 }
 .check i{
     color: #30b868;
