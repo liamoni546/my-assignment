@@ -46,7 +46,7 @@ padding: 16px 120px;
 }
 .btn:hover{
     background-color: darkgreen;
-    
+
 }
 /* banner */
 .banner-conteinar-parent{
@@ -71,6 +71,9 @@ padding: 16px 120px;
 }
 .play-btn{
     
+}
+.icon h1,p{
+    margin-bottom: 30px;
 }
 
 /* notes */
