@@ -6,6 +6,7 @@ body{
     max-width: 1600px;
     margin-left: 50px;
     margin-right: 50px;
+   
 }
 .front-open-sans{
     font-family: "Open Sans",sans-serif;
@@ -66,11 +67,53 @@ padding: 16px 120px;
 }
 
 /* notes */
+.heading{
+    text-align: center;
+    margin-top: 20px;
+}
+.heading p{
+    color:#627382;
+    font-size: 16px;
+}
+.heading h1{
+    font-size: 50px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    margin-right: 20px;
+
+    
+   
+    
+}
+.book{
+    background-color: #F2F6F1;
+    margin-left: 70px;
+     margin-top: 50px;
+     padding: 30px;
+}
+.book i{
+    width: 30px;
+    height: 25px;
+    padding-top: 9px;
+    background-color: #f95555;
+    border-radius: 50%;
+    color: white;
+}
+.book p{
+    color:#627382;
+}
+.vector img{
+    background-color: #f95555;
+}
 /* brain */
 .brain-section{
     display: flex;
     justify-content: space-between;
     padding: 120px;
+   /* margin: 0px 50px 30px 50px;  */
 }
 .point{
     padding-top: 80px;
@@ -88,7 +131,8 @@ padding: 16px 120px;
     .ready{
         text-align: center;
         padding: 80px 40px;
-        margin-top: auto;
+        /* margin-top: auto; */
+        margin: 0px 50px 30px 50px;
         background-color: #F7F6F2;
     }
     /* footer */
